@@ -65,3 +65,14 @@
     <br>
 <a href='https://replit.com/github/xoulfff/fenix-md' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Deploy-black?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
+
+
+#### DEPLOY TO CODESPACE
+
+1. If You don't have a account in Codespace. Create a account.
+    <br>
+<a href='https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fcodespaces' target="_blank"><img alt='Codespaces' src='https://img.shields.io/badge/CREATE-h?color=black&style=for-the-badge&logo=visualstudiocode' width="96.35" height="28"/></a></p>
+
+2. Now Deploy
+    <br>
+<a href='https://github.com/codespaces/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=visualstudiocode' width="96.35" height="28"/></a></p>
