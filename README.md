@@ -58,5 +58,5 @@
 
 2. Now Deploy
     <br>
-<a href='https://replit.com/github/Ethix-Xsid/Ethix-Xsid2' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Deploy-black?style=for-the-badge&logo=replit&logoColor=white'/></a>
+<a href='https://replit.com/github/xoulfff/fenix-md' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Deploy-black?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
