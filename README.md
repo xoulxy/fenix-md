@@ -51,7 +51,7 @@
 
 
 ### 2. GET SESSION VIA PAIR CODE
-<a href='https://replit.com/@xoulser/fenix-md-pairing' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Click here to get your credit js-black?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+<a href='https://replit.com/@xoulser/fenix-md-pairing' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Click here to get your credit js-black?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
 
 
