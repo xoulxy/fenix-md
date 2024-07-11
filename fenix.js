@@ -400,7 +400,7 @@ try {
         let imageCaption = quotedMessage.imageMessage.caption;
         let imageUrl = await gss.downloadAndSaveMediaMessage(quotedMessage.imageMessage);
         gss.sendMessage(m.chat, { image: { url: imageUrl }, caption: imageCaption });
-        m.reply('*Status Download Successful: by Gss_Botwa*');
+        m.reply('*Status Download Successful: by 𝐅ᴇɴɪx-𝐌ᴅ*');
       }
 
       // Check if it's a video
@@ -408,7 +408,7 @@ try {
         let videoCaption = quotedMessage.videoMessage.caption;
         let videoUrl = await gss.downloadAndSaveMediaMessage(quotedMessage.videoMessage);
         gss.sendMessage(m.chat, { video: { url: videoUrl }, caption: videoCaption });
-        m.reply('*Status Download Successful: by Gss_Botwa*');
+        m.reply('*Status Download Successful: by 𝐅ᴇɴɪx-𝐌ᴅ*');
       }
     }
   }
@@ -530,7 +530,7 @@ async function setBio() {
                 second: '2-digit'
             };
             const timeString = moment(date).tz('Asia/Kolkata').format('MM/DD/YYYY ⌚ hh:mm:ss A');
-            const status = `📆 ${timeString} 𝐗ᴏᴜʟ 𝐌ᴅ ⚡`;
+            const status = `📆 ${timeString} 𝐅ᴇɴɪx-𝐌ᴅ ⚡`;
             await gss.updateProfileStatus(status).catch(_ => _);
         }
     }, 60000);
@@ -1378,11 +1378,11 @@ case 'scriptbot':
             const lastUpdateDate = new Date(repoInfo.lastUpdate).toLocaleDateString('en-GB');
 
             const uy = `*GitHub Repository:* ${data.html_url}
-⭐ *Stars:* https://github.com/Xoulfff/xoul-md.star
-♈ *Forks:* https://github.com/Xoulfff/xoul-md.fork
+⭐ *Stars:* https://github.com/Xoulfff/fenix-md.star
+♈ *Forks:* https://github.com/Xoulfff/fenix-md.fork
 📅 *Release Date:* ${releaseDate}
 🕐 *Last Update:* ${lastUpdateDate}
-👨‍💻 *Owner:* ${repoInfo.owner}`;
+👨‍💻 *Owner:* https://github.com/Xoulfff;
 
             gss.sendPoll(m.chat, uy, ['.menu', '.ping'], {
                 quoted: m
@@ -2373,7 +2373,7 @@ await doReact("⬇️");
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
+│⿻ *𝐅ᴇɴɪx-𝐌ᴅ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.duration}
@@ -2416,7 +2416,7 @@ await doReact("⬇️");
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
+│⿻ *𝐅ᴇɴɪx-𝐌ᴅ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.duration}
@@ -2478,7 +2478,7 @@ case 'ytvdoc':
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
+│⿻ *𝐅ᴇɴɪx-𝐌ᴅ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.duration}
@@ -2521,7 +2521,7 @@ case 'ytvdoc':
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
+│⿻ *𝐅ᴇɴɪx-𝐌ᴅ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.duration}
@@ -2588,7 +2588,7 @@ case 'ytmp3':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
+│⿻ *𝐅ᴇɴɪx-𝐌ᴅ*
 │  *Youtube Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.timestamp}
@@ -2637,7 +2637,7 @@ case 'ytmp3':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
+│⿻ *𝐅ᴇɴɪx-𝐌ᴅ*
 │  *Youtube Mp3 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.timestamp}
@@ -2706,7 +2706,7 @@ case 'ytmp3doc':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
+│⿻ *𝐅ᴇɴɪx-𝐌ᴅ*
 │  *Youtube Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.timestamp}
@@ -2755,7 +2755,7 @@ case 'ytmp3doc':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
+│⿻ *𝐅ᴇɴɪx-𝐌ᴅ*
 │  *Youtube Mp3 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.timestamp}
@@ -2872,7 +2872,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const pollMessage = `
 ╭═════════•∞•══╮
-│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
+│⿻ *𝐅ᴇɴɪx-𝐌ᴅ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -2949,7 +2949,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const caption = `
 ╭═════════•∞•══╮
-│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
+│⿻ *𝐅ᴇɴɪx-𝐌ᴅ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -3027,7 +3027,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const caption = `
 ╭═════════•∞•══╮
-│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
+│⿻ *𝐅ᴇɴɪx-𝐌ᴅ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -3110,7 +3110,7 @@ case '𝐕𝐢𝐝𝐞𝐨': {
 
 const captionText = `
 ╭═════════•∞•══╮
-│⿻ *𝐗ᴏᴜʟ 𝐌ᴅ*
+│⿻ *𝐅ᴇɴɪx-𝐌ᴅ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
