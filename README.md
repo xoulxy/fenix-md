@@ -47,3 +47,16 @@
 
 ### 1. FORK THIS REPO
 <a href='https://github.com/xoulfff/fenix-md/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
+
+
+
+#### DEPLOY TO REPLIT
+
+1. If You don't have a account in Replit. Create a account.
+    <br>
+<a href='https://replit.com/' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=replit&logoColor=white'/></a>
+
+2. Now Deploy
+    <br>
+<a href='https://replit.com/github/Ethix-Xsid/Ethix-Xsid2' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Deploy-black?style=for-the-badge&logo=replit&logoColor=white'/></a>
+
